@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر النجم الأخضر</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #008000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004d00;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #e6ffe6;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      max-height: 150px;
+      object-fit: contain;
+    }
+
+    .footer {
+      background-color: #008000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>متجر النجم الأخضر</h1>
+  <p>أفضل المنتجات بين يديك</p>
+</header>
+
+<nav>
+  <a href="#">الرئيسية</a>
+  <a href="#">منتجاتنا</a>
+  <a href="#">اتصل بنا</a>
+</nav>
+
+<section class="hero">
+  <h2>أهلاً بك في متجرنا الإلكتروني</h2>
+  <p>نوفر لك منتجات متنوعة بأسعار رائعة مع خدمة توصيل سريعة!</p>
+</section>
+
+<section class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150?text=منتج+1" alt="منتج 1">
+    <h3>منتج 1</h3>
+    <p>وصف قصير للمنتج</p>
+    <strong>2000 دج</strong>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150?text=منتج+2" alt="منتج 2">
+    <h3>منتج 2</h3>
+    <p>وصف قصير للمنتج</p>
+    <strong>3500 دج</strong>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150?text=منتج+3" alt="منتج 3">
+    <h3>منتج 3</h3>
+    <p>وصف قصير للمنتج</p>
+    <strong>1500 دج</strong>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 متجر النجم الأخضر - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
